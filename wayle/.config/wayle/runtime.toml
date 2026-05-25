@@ -1,0 +1,69 @@
+[general]
+font-sans = "Bitstream Vera Serif"
+
+[bar]
+scale = 1.149999976158142
+bg = "transparent"
+rounding = "full"
+
+[[bar.layout]]
+monitor = "DP-1"
+show = true
+left = [
+    "clock",
+    "weather",
+    "systray",
+    "separator",
+]
+center = [
+    "separator",
+    "cava",
+    "separator",
+]
+right = [
+    "separator",
+    "network",
+    "microphone",
+    "volume",
+    "notifications",
+]
+
+[[bar.layout]]
+monitor = "HDMI-A-1"
+show = false
+left = []
+center = []
+right = []
+
+[modules.cava]
+color = "#531313"
+bar-width = 10
+
+[modules.clock]
+format = "%a %b %d %H:%M:%S"
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[modules.media]
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[modules.microphone]
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[modules.network]
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[modules.volume]
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[modules.weather]
+location = "Birmingham"
+icon-bg-color = "#531313"
+label-color = "#531313"
+
+[wallpaper]
+engine-enabled = false
