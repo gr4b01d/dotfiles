@@ -1,0 +1,173 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.name": "Noto Serif",
+  "theme.font.label": "Noto Serif Medium Italic Semi-Condensed",
+  "theme.font.size": "1.3rem",
+  "theme.font.style": "italic",
+  "bar.autoHide": "fullscreen",
+  "menus.media.displayTime": true,
+  "menus.media.displayTimeTooltip": true,
+  "menus.clock.time.military": true,
+  "menus.clock.weather.location": "Birmingham ",
+  "menus.clock.weather.unit": "metric",
+  "theme.bar.buttons.modules.microphone.enableBorder": false,
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "systray",
+        "windowtitle",
+        "updates"
+      ],
+      "middle": [
+        "media",
+        "cava"
+      ],
+      "right": [
+        "microphone",
+        "volume",
+        "network",
+        "bluetooth",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "3": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "menus.dashboard.powermenu.avatar.image": "~/.face.icon",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰓇",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "ghostty -e ncmpcpp",
+  "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Ncmpcpp",
+  "menus.dashboard.shortcuts.left.shortcut2.icon": "󰽸",
+  "theme.bar.menus.monochrome": false,
+  "wallpaper.pywal": true,
+  "theme.bar.menus.background": "#11111b",
+  "theme.bar.menus.opacity": 85,
+  "wallpaper.image": "/home/tagilla/Pictures/linus.jpg",
+  "wallpaper.enable": true,
+  "theme.bar.menus.label": "#a51d2d",
+  "theme.bar.menus.border.color": "#a51d2d",
+  "menus.dashboard.directories.left.directory3.label": "󰚝 filmdisk",
+  "menus.dashboard.directories.left.directory3.command": "bash -c \"xdg-open /run/media/tagilla/filmdisk/\"",
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.key": "f7ac4c53a05a4b0ab27120805263001",
+  "theme.matugen": false,
+  "theme.matugen_settings.mode": "dark",
+  "theme.bar.buttons.dashboard.icon": "#a51d2d",
+  "theme.bar.buttons.dashboard.background": "#000000",
+  "theme.bar.buttons.workspaces.active": "#a51d2d",
+  "theme.bar.buttons.workspaces.available": "#e01b24",
+  "theme.bar.buttons.windowtitle.text": "#a51d2d",
+  "theme.bar.buttons.windowtitle.icon": "#c64600",
+  "theme.bar.buttons.media.text": "#a51d2d",
+  "theme.bar.buttons.media.icon": "#c64600",
+  "theme.bar.buttons.media.icon_background": "#613583",
+  "theme.bar.buttons.volume.text": "#a51d2d",
+  "theme.bar.buttons.volume.icon": "#c64600",
+  "theme.bar.buttons.network.text": "#a51d2d",
+  "theme.bar.buttons.network.icon": "#c64600",
+  "theme.bar.buttons.bluetooth.text": "#a51d2d",
+  "theme.bar.buttons.bluetooth.icon": "#1a5fb4",
+  "theme.bar.buttons.systray.customIcon": "#a51d2d",
+  "theme.bar.buttons.clock.text": "#a51d2d",
+  "theme.bar.buttons.clock.icon": "#c64600",
+  "theme.bar.buttons.notifications.total": "#a51d2d",
+  "theme.bar.buttons.notifications.icon": "#c64600",
+  "theme.bar.buttons.modules.cava.text": "#a51d2d",
+  "theme.bar.buttons.modules.cava.icon": "#c64600",
+  "theme.bar.buttons.modules.cava.background": "#000000",
+  "theme.bar.menus.menu.media.buttons.enabled": "#e01b24",
+  "theme.bar.menus.menu.media.buttons.background": "#813d9c",
+  "theme.bar.menus.menu.media.slider.primary": "#a51d2d",
+  "theme.bar.menus.menu.media.slider.puck": "#ffffff",
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.modules.updates.text": "#a51d2d",
+  "theme.bar.buttons.modules.updates.icon": "#c64600",
+  "theme.bar.buttons.modules.updates.background": "#000000",
+  "theme.bar.menus.menu.systray.dropdownmenu.background": "#000000",
+  "theme.bar.buttons.workspaces.background": "#000000",
+  "theme.bar.buttons.workspaces.hover": "#e01b24",
+  "theme.bar.buttons.windowtitle.background": "#000000",
+  "theme.bar.buttons.media.background": "#000000",
+  "theme.bar.buttons.volume.background": "#000000",
+  "theme.bar.buttons.network.background": "#000000",
+  "theme.bar.buttons.bluetooth.background": "#000000",
+  "theme.bar.buttons.systray.background": "#000000",
+  "theme.bar.buttons.clock.background": "#000000",
+  "theme.bar.buttons.notifications.background": "#000000",
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.workspaces": 6,
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "󰖂",
+  "menus.dashboard.shortcuts.right.shortcut1.command": "protonvpn-app",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "proton vpn",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
+  "bar.battery.label": false,
+  "theme.bar.buttons.battery.enableBorder": false,
+  "menus.dashboard.stats.enable_gpu": true,
+  "bar.customModules.weather.unit": "metric",
+  "theme.bar.buttons.modules.worldclock.enableBorder": false,
+  "bar.customModules.worldclock.showIcon": true,
+  "bar.customModules.worldclock.format": "%I:%M:%S %p %Z",
+  "bar.scrollSpeed": 5,
+  "theme.bar.buttons.modules.microphone.text": "#a51d2d",
+  "theme.bar.buttons.modules.microphone.icon": "#c64600",
+  "theme.bar.buttons.modules.microphone.background": "#000000",
+  "bar.customModules.worldclock.leftClick": "menu:calendar",
+  "bar.customModules.kbLayout.labelType": "code",
+  "bar.customModules.cava.showActiveOnly": true,
+  "bar.customModules.power.rightClick": "menu:energy",
+  "bar.customModules.updates.leftClick": "foot --app-id footup /usr/share/hyprpanel/scripts/runUpdates.sh -arch",
+  "menus.dashboard.powermenu.avatar.name": "system"
+}

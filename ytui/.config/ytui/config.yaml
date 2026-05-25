@@ -1,0 +1,16 @@
+channels:
+    local: true
+    subscribed:
+        - UCTt2AnK--mnRmICnf-CCcrw
+        - UCutXfzLC5wrV3SInT_tdY0w
+download_dir: /home/tagilla/Videos
+history:
+    enable: true
+invidious:
+  #instance: https://inv.vern.cc
+  instance: https://y.com.sb 
+    #proxy: ""
+loglevel: info
+youtube:
+    clientid: CREATE_IN_YOUTUBE_API_CONSOLE
+    secretid: CREATE_IN_YOUTUBE_API_CONSOLE

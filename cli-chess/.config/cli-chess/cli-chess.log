@@ -1,0 +1,226 @@
+11/06/2025 09:23:59.065 | INFO  | cli-chess | main_model._start_loggers | cli-chess v1.4.3 // python 3.13.7
+11/06/2025 09:23:59.065 | INFO  | cli-chess | main_model._start_loggers | System information: system=Linux // release=6.17.6-arch1-1 // machine=x86_64
+11/06/2025 09:23:59.066 | DEBUG | cli-chess | argparse.parse_args | Parsed arguments: Namespace(token=None, reset_config=False, base_url='https://lichess.org', print_config=False)
+11/06/2025 09:23:59.066 | DEBUG | cli-chess | token_manager_model.set_base_url | Base URL set to: https://lichess.org
+11/06/2025 09:23:59.247 | INFO  | cli-chess | token_manager_model.validate_token | Successfully authenticated with Lichess
+11/06/2025 09:23:59.248 | INFO  | cli-chess | incoming_event_manger.run | Started listening to Lichess incoming events
+11/06/2025 09:23:59.804 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/06/2025 09:24:19.845 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.SETTINGS
+11/06/2025 09:24:20.338 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: MainMenuOptions.ONLINE_GAMES
+11/06/2025 09:24:20.835 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: OnlineGamesMenuOptions.VS_COMPUTER_ONLINE
+11/06/2025 09:24:21.705 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:22.390 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/06/2025 09:24:24.098 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/06/2025 09:24:25.550 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:26.467 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.VARIANT
+11/06/2025 09:24:26.857 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:27.003 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/06/2025 09:24:27.192 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COLOR
+11/06/2025 09:24:27.797 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COLOR
+11/06/2025 09:24:29.078 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COLOR
+11/06/2025 09:24:29.326 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COLOR
+11/06/2025 09:24:29.766 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.COMPUTER_SKILL_LEVEL
+11/06/2025 09:24:29.975 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:30.143 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.VARIANT
+11/06/2025 09:24:33.388 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:34.295 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:34.665 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:35.176 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:35.465 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:35.775 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:36.146 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:36.474 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:36.764 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:37.033 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:37.505 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:37.896 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:38.002 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:38.129 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:38.257 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:38.405 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:38.796 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:39.241 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:24:39.636 | DEBUG | cli-chess | menu_presenter.select_handler | Menu selection: GameOption.TIME_CONTROL
+11/06/2025 09:40:41.239 | DEBUG | cli-chess | board_model._log_init_info | =============== BOARD INITIALIZATION ===============
+11/06/2025 09:40:41.239 | DEBUG | cli-chess | board_model._log_init_info | Variant: chess
+11/06/2025 09:40:41.239 | DEBUG | cli-chess | board_model._log_init_info | Starting FEN: 8/8/8/8/8/8/8/8 w - - 0 1
+11/06/2025 09:40:41.239 | DEBUG | cli-chess | board_model._log_init_info | Orientation: black
+11/06/2025 09:40:41.239 | DEBUG | cli-chess | board_model._log_init_info | ====================================================
+11/06/2025 09:40:41.240 | DEBUG | cli-chess | game_model_base.__init__ | Created OnlineGameModel (id=139949058904752)
+11/06/2025 09:40:41.244 | DEBUG | cli-chess | game_view_base.__init__ | Created OnlineGameView (id=139949059779824)
+11/06/2025 09:40:41.244 | DEBUG | cli-chess | game_presenter_base.__init__ | Created OnlineGamePresenter (id=139949059775456)
+11/06/2025 09:40:41.244 | DEBUG | cli-chess | ui_common.change_views | View changed to OnlineGameView (id=139949059779824)
+11/06/2025 09:40:41.314 | DEBUG | cli-chess | incoming_event_manger.run | IEM event received: {'type': 'gameStart', 'game': {'fullId': 'IPs4mUE1OK8d', 'gameId': 'IPs4mUE1', 'fen': 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1', 'color': 'black', 'lastMove': '', 'source': 'ai', 'status': {'id': 20, 'name': 'started'}, 'variant': {'key': 'standard', 'name': 'Standard'}, 'speed': 'classical', 'perf': 'classical', 'rated': False, 'hasMoved': False, 'opponent': {'id': None, 'username': 'Stockfish level 2', 'ai': 2}, 'isMyTurn': False, 'secondsLeft': 1800, 'compat': {'bot': False, 'board': True}, 'id': 'IPs4mUE1'}}
+11/06/2025 09:40:41.314 | INFO  | cli-chess | game_state_dispatcher.run | Started streaming game state: IPs4mUE1
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameFull // topic: EventTopics.GAME_START
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model.set_board_orientation | Board orientation set to BLACK
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model._log_init_info | =============== BOARD INITIALIZATION ===============
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model._log_init_info | Variant: chess
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model._log_init_info | Starting FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model._log_init_info | Orientation: black
+11/06/2025 09:40:41.342 | DEBUG | cli-chess | board_model._log_init_info | ====================================================
+11/06/2025 09:40:43.326 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:40:43.326 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e2e4
+11/06/2025 09:41:03.462 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (d7d6) to lichess
+11/06/2025 09:41:04.024 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:04.025 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d7d6
+11/06/2025 09:41:06.376 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:06.377 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g1f3
+11/06/2025 09:41:18.939 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g8f6) to lichess
+11/06/2025 09:41:19.502 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:19.503 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g8f6
+11/06/2025 09:41:21.018 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:21.021 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: b1c3
+11/06/2025 09:41:50.815 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (e7e5) to lichess
+11/06/2025 09:41:51.378 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:51.384 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e7e5
+11/06/2025 09:41:54.499 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:41:54.500 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f1c4
+11/06/2025 09:42:11.311 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (h7h6) to lichess
+11/06/2025 09:42:11.882 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:42:11.888 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: h7h6
+11/06/2025 09:42:15.062 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:42:15.063 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d2d4
+11/06/2025 09:42:42.556 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (b8c6) to lichess
+11/06/2025 09:42:43.121 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:42:43.121 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: b8c6
+11/06/2025 09:42:49.683 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:42:49.684 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d4d5
+11/06/2025 09:43:39.620 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (c6d4) to lichess
+11/06/2025 09:43:40.176 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:43:40.181 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: c6d4
+11/06/2025 09:43:43.892 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:43:43.892 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f3d4
+11/06/2025 09:43:48.904 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (e5d4) to lichess
+11/06/2025 09:43:49.436 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:43:49.436 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e5d4
+11/06/2025 09:43:56.915 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:43:56.916 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d1d4
+11/06/2025 09:44:24.716 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (d8e7) to lichess
+11/06/2025 09:44:25.275 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:44:25.276 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d8e7
+11/06/2025 09:44:32.126 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:44:32.128 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e1g1
+11/06/2025 09:44:51.696 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (c7c5) to lichess
+11/06/2025 09:44:52.256 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:44:52.257 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: c7c5
+11/06/2025 09:44:57.763 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:44:57.764 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d4e3
+11/06/2025 09:45:11.874 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f6g4) to lichess
+11/06/2025 09:45:12.434 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:45:12.435 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f6g4
+11/06/2025 09:45:18.008 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:45:18.009 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e3g3
+11/06/2025 09:46:09.046 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (e7g5) to lichess
+11/06/2025 09:46:09.615 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:46:09.616 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e7g5
+11/06/2025 09:46:15.666 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:46:15.667 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f2f3
+11/06/2025 09:46:45.248 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g5h5) to lichess
+11/06/2025 09:46:45.804 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:46:45.805 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g5h5
+11/06/2025 09:46:49.686 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:46:49.688 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f1e1
+11/06/2025 09:47:38.588 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g7g6) to lichess
+11/06/2025 09:47:39.144 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:47:39.146 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g7g6
+11/06/2025 09:47:43.109 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:47:43.111 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f3g4
+11/06/2025 09:47:53.203 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (c8g4) to lichess
+11/06/2025 09:47:53.764 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:47:53.765 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: c8g4
+11/06/2025 09:48:00.678 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:48:00.680 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g3f4
+11/06/2025 09:48:26.723 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g6g5) to lichess
+11/06/2025 09:48:27.289 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:48:27.295 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g6g5
+11/06/2025 09:48:32.758 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:48:32.760 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: c4b5
+11/06/2025 09:48:53.999 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (e8e7) to lichess
+11/06/2025 09:48:54.563 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:48:54.565 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e8e7
+11/06/2025 09:48:59.019 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:48:59.020 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f4e3
+11/06/2025 09:49:16.414 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f8g7) to lichess
+11/06/2025 09:49:16.974 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:49:16.981 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f8g7
+11/06/2025 09:49:19.893 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:49:19.895 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e3g3
+11/06/2025 09:49:31.654 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g7e5) to lichess
+11/06/2025 09:49:32.214 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:49:32.216 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g7e5
+11/06/2025 09:49:36.154 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:49:36.156 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g3d3
+11/06/2025 09:50:33.342 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (h8f8) to lichess
+11/06/2025 09:50:33.938 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:50:33.946 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: h8f8
+11/06/2025 09:50:38.969 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:50:38.971 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g2g3
+11/06/2025 09:51:11.393 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f7f5) to lichess
+11/06/2025 09:51:11.954 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:51:11.956 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f7f5
+11/06/2025 09:51:16.543 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:51:16.545 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: h2h4
+11/06/2025 09:51:36.665 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f5e4) to lichess
+11/06/2025 09:51:37.232 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:51:37.234 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f5e4
+11/06/2025 09:51:41.041 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:51:41.044 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d3e4
+11/06/2025 09:51:51.418 | ERROR | cli-chess | board_model.verify_move | illegal san: 'Bxg3' in r4r2/pp2k3/3p3p/1BpPb1pq/4Q1bP/2N3P1/PPP5/R1B1R1K1 b - - 0 22
+11/06/2025 09:52:34.122 | ERROR | cli-chess | board_model.verify_move | illegal san: 'Ke8' in r4r2/pp2k3/3p3p/1BpPb1pq/4Q1bP/2N3P1/PPP5/R1B1R1K1 b - - 0 22
+11/06/2025 09:52:53.896 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (e7d8) to lichess
+11/06/2025 09:52:54.463 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:52:54.470 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e7d8
+11/06/2025 09:52:57.201 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:52:57.203 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e1f1
+11/06/2025 09:53:23.221 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f8f1) to lichess
+11/06/2025 09:53:23.782 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:53:23.784 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f8f1
+11/06/2025 09:53:29.814 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:53:29.816 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g1g2
+11/06/2025 09:53:59.394 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f1f3) to lichess
+11/06/2025 09:53:59.951 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:53:59.953 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f1f3
+11/06/2025 09:54:05.642 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:54:05.646 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: e4e5
+11/06/2025 09:54:20.338 | ERROR | cli-chess | board_model.verify_move | invalid san: 'Dxe5'
+11/06/2025 09:54:23.815 | ERROR | cli-chess | board_model.verify_move | invalid san: 'Dxe5'
+11/06/2025 09:54:53.434 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (d6e5) to lichess
+11/06/2025 09:54:54.001 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:54:54.004 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d6e5
+11/06/2025 09:54:57.797 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:54:57.799 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: b5f1
+11/06/2025 09:55:39.707 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (g5h4) to lichess
+11/06/2025 09:55:40.277 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:55:40.279 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g5h4
+11/06/2025 09:55:42.998 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:55:43.000 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d5d6
+11/06/2025 09:55:52.080 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f3g3) to lichess
+11/06/2025 09:55:52.641 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:55:52.649 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f3g3
+11/06/2025 09:55:56.992 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:55:56.996 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: g2h2
+11/06/2025 09:56:15.711 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (h5f5) to lichess
+11/06/2025 09:56:16.271 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:56:16.273 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: h5f5
+11/06/2025 09:56:21.270 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:56:21.273 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f1g2
+11/06/2025 09:56:56.304 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f5f2) to lichess
+11/06/2025 09:56:56.862 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:56:56.870 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f5f2
+11/06/2025 09:57:02.972 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:57:02.974 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: d6d7
+11/06/2025 09:57:08.831 | DEBUG | cli-chess | game_state_dispatcher.make_move | Sending move (f2g2) to lichess
+11/06/2025 09:57:09.394 | DEBUG | cli-chess | incoming_event_manger.run | IEM event received: {'type': 'gameFinish', 'game': {'fullId': 'IPs4mUE1OK8d', 'gameId': 'IPs4mUE1', 'fen': 'r2k4/pp1P4/7p/2p1p3/6bp/2N3r1/PPP3qK/R1B5 w - - 0 31', 'color': 'black', 'lastMove': 'f2g2', 'source': 'ai', 'status': {'id': 30, 'name': 'mate'}, 'variant': {'key': 'standard', 'name': 'Standard'}, 'speed': 'classical', 'perf': 'classical', 'rated': False, 'hasMoved': True, 'opponent': {'id': None, 'username': 'Stockfish level 2', 'ai': 2}, 'isMyTurn': False, 'secondsLeft': 1528, 'winner': 'black', 'compat': {'bot': False, 'board': True}, 'id': 'IPs4mUE1'}}
+11/06/2025 09:57:09.394 | ERROR | cli-chess | online_game_presenter._parse_and_present_game_over | Attempted to present game over status when the game is not over
+11/06/2025 09:57:09.400 | DEBUG | cli-chess | game_state_dispatcher.run | GSD Stream event type received: gameState // topic: EventTopics.MOVE_MADE
+11/06/2025 09:57:09.403 | DEBUG | cli-chess | board_model.make_moves_from_list | Updated board with moves from list. Last move played: f2g2
+11/06/2025 09:57:09.431 | INFO  | cli-chess | game_state_dispatcher._game_ended | GAME ENDED: Removing existing GSD listeners
+11/06/2025 09:57:09.439 | INFO  | cli-chess | game_state_dispatcher.run | Completed streaming of: IPs4mUE1
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | game_presenter_base.exit | Exiting game presenter
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after BoardModel (id=139949058913488)
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MoveListModel (id=139949058903744)
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after MaterialDifferenceModel (id=139949058912144)
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | game_model_base.cleanup | Finished cleaning up after PremoveModel (id=139949059773776)
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | online_game_model.cleanup | Cleared subscription from IncomingEventManager (id=139949058910464)
+11/06/2025 09:57:19.154 | DEBUG | cli-chess | ui_common.change_views | View changed to MainView (id=139949058909120)
