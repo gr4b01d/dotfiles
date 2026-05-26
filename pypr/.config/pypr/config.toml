@@ -4,10 +4,11 @@ plugins = [
 ]
 
 [scratchpads.term]
-command = "foot --app-id term"
-class = "term"
-size = "85% 30%"
-animation = "fromTop" 
+command = "ghostty --class=com.term.term"
+class = "com.term.term"
+size = "55% 170px"
+position = "575px 635px"
+animation = "fromLeft" 
 lazy = "true"
 
 [scratchpads.audio]
@@ -24,24 +25,17 @@ animation = "fromTop"
 size = "60% 40%"
 lazy = "true"
 
-[scratchpads.mymusic]
-command = "foot --app-id ncmpcpp rmpc"
-class = "ncmpcpp"
-size = "70% 30%"
-animation = "fromBottom"
-lazy = "true"
-
-[scratchpads.cava]
-command = "foot --app-id cava cava"
-class = "cava"
-size = "70% 30%"
-animation = "fromTop"
-lazy = "true"
+#[scratchpads.mymusic]
+#command = "foot --app-id ncmpcpp rmpc"
+#class = "ncmpcpp"
+#size = "55% 40%"
+#animation = "fromBottom"
+#lazy = "true"
 
 [scratchpads.spot]
 command = "LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 class = "Spotify"
-size = "75% 40%"
+size = "55% 40%"
 animation = "fromTop"
 lazy = "true"
 process_tracking = "false"
@@ -49,27 +43,31 @@ process_tracking = "false"
 [scratchpads.monitor]
 command = "foot --app-id monitor btop"
 class = "monitor"
-animation = "fromLeft"
-size = "50% 80%"
+animation = "fromBottom"
+size = "55% 42%"
+position = "574px 826px"
 lazy = "true"
 
 [scratchpads.clock]
 command = "foot --app-id clock clock-rs"
 class = "clock"
-size = "50% 30%"
-animation = "fromTop"
+size = "539px 213px"
+position = "30px 60px"
+animation = "fromLeft"
 lazy = "true"
 
 [scratchpads.calc]
 command = "gnome-calculator"
 class = "calc"
-size = "30% 50%"
+size = "542px 778px"
+position = "1990px 640px"
 animation = "fromBottom"
 lazy = "true"
 
 [scratchpads.clipse]
 command = "foot --app-id clipse clipse"
 class = "clipse"
-size = "30% 40%"
-animation = "fromBottom"
+position = "1990px 60px"
+size = "548px 574px"
+animation = "fromRight"
 lazy = "true"

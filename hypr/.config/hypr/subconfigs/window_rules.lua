@@ -55,6 +55,8 @@ hl.window_rule({ match = { class = "ncmpcpp" }, float = true })
 hl.window_rule({ match = { class = "footup" }, float = true })
 hl.window_rule({ match = { class = "yownloader" }, float = true })
 hl.window_rule({ match = { class = "update" }, float = true })
+hl.window_rule({ match = { class = "calc" }, float = true })
+hl.window_rule({ match = { class = "org.gnome.Calculator" }, float = true })
 
 hl.window_rule({
         name = "feh",
@@ -73,10 +75,10 @@ hl.window_rule({
 
 hl.window_rule({
         name = "term",
-        match = { class = "term"},
+        match = { class = "com.term.term"},
 
         float = true,
-        opacity = "0.8",
+        --opacity = "0.8",
         center = off,
 })
 
