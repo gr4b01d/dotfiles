@@ -242,3 +242,6 @@ hl.device({
 --------------------------------
 
 
+
+-- HyprMod managed settings
+require("hyprland-gui")

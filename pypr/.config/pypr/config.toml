@@ -71,3 +71,12 @@ position = "1990px 60px"
 size = "548px 574px"
 animation = "fromRight"
 lazy = "true"
+
+[scratchpads.weather]
+command = "ghostty --class=com.we.weather --font-size=5 --command='wttr Birmingham && sleep 60'"
+class = "com.we.weather"
+position = "30px 273px"
+size = "539px 419px"
+animation = "fromLeft"
+lazy = "true"
+

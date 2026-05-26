@@ -65,6 +65,7 @@ alias debtap="~/debtap/debtap"
 alias proton-pass="~/Downloads/proton-pass-1.36.1-1-x86_64.pkg/usr/lib/proton-pass/Proton\ Pass"
 alias rmpc-bindings="cat /home/tagilla/Documents/rmpcbinds"
 alias githubsync="cat /home/tagilla/Documents/githubsync.txt"
+alias moncfg="hyprmoncfg --monitors-conf ~/dotfiles/hypr/.config/hypr/subconfigs/monitors.lua --hypr-config ~/dotfiles/hypr/.config/hypr/hyprland.lua"
 PROMPT="%B%F{9}%n%f%b within%B%F{14}%d%f%b|%B%F{13}%T%f%b:"
 export EDITOR='nvim'
 # Created by `pipx` on 2025-11-05 13:52:32
