@@ -1,0 +1,14 @@
+*.log
+*/user.ini
+
+node_modules/
+dist/
+build/
+logs/
+profiler_data/
+tmp_files/
+
+
+fifo
+clipse/.config/clipse/clipboard_history.json
+obs-studio/.config/obs-studio/user.ini
