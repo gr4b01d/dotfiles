@@ -28,6 +28,7 @@ require("subconfigs.keybindings")
    hl.exec_cmd("wayle panel start & kdeconnect-indicator & hyprpm reload & ")
    hl.exec_cmd("mpd-mpris -port 6600 -instance-name glaurung")
    hl.exec_cmd("/usr/bin/pypr")
+   hl.exec_cmd("wayle panel hide")
  end)
 
 

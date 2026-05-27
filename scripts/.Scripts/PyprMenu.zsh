@@ -1,6 +1,6 @@
 #!/bin/zsh
 #
-option=$(printf "Terminal\nPavuctl\nOBS\nSpotify\nBTOP\nClock\nCalculator\nClipboard\nWeather\nHome" | fuzzel --dmenu -p "Pypr" --lines=10)
+option=$(printf "Terminal\nPavuctl\nOBS\nSpotify\nBTOP\nClock\nCalculator\nClipboard\nHome" | fuzzel --dmenu -p "Pypr" --lines=9)
 
 case "$option" in
 	"Terminal") pypr toggle term ;;
@@ -12,6 +12,5 @@ case "$option" in
 	"Clock") pypr toggle clock ;;
 	"Calculator") pypr toggle calc ;;
 	"Clipboard") pypr toggle clipse ;;
-	"Weather") pypr toggle weather ;;
 	"Home") pypr toggle clipse calc clock monitor spot term weather ;;
 esac

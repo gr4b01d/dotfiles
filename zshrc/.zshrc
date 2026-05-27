@@ -102,21 +102,15 @@ alias .....="cd ../../../.."
 alias mc="micro"
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S"
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq); sudo paccache -rk2'
+alias query="pacman -Q"
 alias keys="~/custom-scripts/keybinds.sh"
 alias dashboard="python3 ~/custom-scripts/Dashboard/dashboard.py"
 alias hyprconf='micro -multiopen vsplit ~/.config/hypr/configs/keybinds.lua ~/.config/hypr/configs/windowrules.lua'
 alias reclaim="python3 ~/arch-projects/Reclaim-Linux/reclaim-linux.py"
-alias als="~/custom-scripts/Show-Aliases/show-aliases.sh"
-alias lg='lazygit'
-alias bt="~/custom-scripts/bluetooth/bt"
 alias Zource="source ~/.zshrc" 
-alias gzdoom="cd ~/gzdoom_build/gzdoom/build"
 alias clear="clear && fastfetch" 
 alias zcfg="nvim ~/.zshrc"
 alias seeksuperfluous="pacman -Qtdq"
-alias WallRizz="WallRizz" 
-alias Beats="ncmpcpp"
 alias BirmStars="astroterm -i Birmingham --color --constellations -s 100"
 alias rsync="rsync --progress"
 alias Reveal="chafa"
@@ -165,29 +159,12 @@ alias proton-pass="~/Downloads/proton-pass-1.36.1-1-x86_64.pkg/usr/lib/proton-pa
 alias rmpc-bindings="cat /home/tagilla/Documents/rmpcbinds"
 alias githubsync="cat /home/tagilla/Documents/githubsync.txt"
 alias moncfg="hyprmoncfg --monitors-conf ~/dotfiles/hypr/.config/hypr/subconfigs/monitors.lua --hypr-config ~/dotfiles/hypr/.config/hypr/hyprland.lua"
-
-
-
-# --- YouTube Download Aliases ---
-alias song='yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --embed-metadata -o "~/Music/%(title)s.%(ext)s"'
-alias album='yt-dlp -x --audio-format mp3 --audio-quality 0 --yes-playlist --embed-thumbnail --embed-metadata --parse-metadata "playlist_index:%(track_number)s" -o "~/Music/%(album,playlist_title)s/%(playlist_index)02d - %(title)s.%(ext)s"'
-
-# Alias to run the AUR/GitHub release automator
-alias uprelease='~/arch-projects/arch-update-check/release.sh'
-
-# Arch Update Check before updating system
-alias upcheck="/usr/bin/arch-update-check"
+alias weather="wttr Birmingham"
 
 # Timeshift aliases
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
 
-# Project Time Tracker
-alias t='tt tui'
-alias ts='tt stop'
-
-# Added by XC-Manager
-alias orphaned="pacman -Qdt"
  
 # --- Functions ---
 function y() {
@@ -199,44 +176,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-dotsync() {
-    # Update your package list using pacman
-    pacman -Qqe > ~/dotfiles/pkglist.txt
-
-    echo "󰒲 Copying live config to GitHub folder..."
-
-    # Sync .config folders directly to the repo's .config directory
-    # Using the / suffix on source ensures we sync the content into the named destination
-    rsync -a --delete ~/.config/hypr/ ~/dotfiles/.config/hypr/
-    rsync -a --delete ~/.config/nwg-look/ ~/dotfiles/.config/nwg-look/
-    rsync -a --delete ~/.config/wal/ ~/dotfiles/.config/wal/
-    rsync -a --delete ~/.config/kitty/ ~/dotfiles/.config/kitty/
-    rsync -a --delete ~/.config/backgrounds/ ~/dotfiles/.config/backgrounds/
-    rsync -a --delete ~/custom-scripts/ ~/dotfiles/custom-scripts/
-    cp ~/.zshrc ~/dotfiles/.zshrc
-    cp ~/.bashrc ~/dotfiles/.bashrc
-    cp ~/.current_theme ~/dotfiles/.current_theme
-
-    # GitHub Upload
-    cd ~/dotfiles || return
-    echo "󰚰 Changes detected in your dotfiles:"
-    git status -sb
-    
-    echo -n "󰏖 Commit and push these changes? [y/N]: "
-    read -k 1 "REPLY" # Using -k 1 for a cleaner single-key read in zsh
-    echo ""
-    
-    if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-        git add .
-        # Commit with summary and detailed file changes in the body
-        git commit -m "Sync: $(date +'%H:%M')" -m "$(git status --porcelain)"
-        git push
-        date +"%m/%d %H:%M" > ~/.cache/last_synced
-        echo "󰄬 Everything is safe on GitHub."
-    else
-        echo "󰅙 Sync aborted."
-    fi
-}
 
 # --- zsh-autosuggestions (sourced directly, no plugin manager) ---
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
