@@ -36,10 +36,10 @@ hl.config({
 hl.monitor({
     output = "DP-1",
     mode = "2560x1440@75.00Hz",
-    position = "1890x240",
+    position = "690x240",
     scale = 1,
     bitdepth = 10,
-    cm = "wide",
+    cm = "adobe",
     sdrbrightness = 0.19,
     sdrsaturation = 1.38,
     sdr_min_luminance = 0,
@@ -51,22 +51,23 @@ hl.monitor({
 hl.monitor({
     output = "DP-2",
     mode = "800x480@60.73Hz",
-    position = "4450x240",
-    scale = 0.67,
+    position = "-270x480",
+    scale = 0.83,
     transform = 2,
     cm = "srgb",
 })
 hl.monitor({
     output = "DP-3",
-    mode = "1920x1080@59.02Hz",
-    position = "-30x240",
-    scale = 1,
+    mode = "800x480@60.73Hz",
+    position = "3250x250",
+    scale = 0.83,
+    transform = 2,
     cm = "srgb",
 })
 hl.monitor({
     output = "HDMI-A-1",
     mode = "1920x1080@60.00Hz",
-    position = "5650x230",
+    position = "4210x250",
     scale = 1,
     cm = "srgb",
 })
