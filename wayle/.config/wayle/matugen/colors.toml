@@ -1,0 +1,71 @@
+[styling.palette]
+primary = "#98ccf9"
+fg = "#98ccf9"
+fg-muted = "#b8c8da"
+elevated = "#101418"
+
+[modules.dashboard]
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.hyprland-workspaces]
+container-bg-color = "#101418"
+active-color = "#98ccf9"
+
+[modules.systray]
+button-bg-color = "#101418"
+
+[modules.clock]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.battery]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.bluetooth]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.network]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.volume]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.microphone]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.media]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.notification]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+
+[modules.window-title]
+label-color = "#98ccf9"
+button-bg-color = "#101418"
+icon-color = "#101418"
+icon-bg-color = "#98ccf9"
+

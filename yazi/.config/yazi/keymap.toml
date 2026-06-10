@@ -90,7 +90,10 @@ on = [ "g", "m" ]
 run = "cd /home/tagilla/Music"
 desc = "Travel to Music"
 
-
+[[mgr.prepend_keymap]]
+on = [ "g", "G" ]
+run = "cd /home/tagilla/.local/share/Steam/steamapps/common"
+desc = "Travel to Steam games folder"
 
 
 

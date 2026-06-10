@@ -3,6 +3,7 @@ export LS_COLORS='di=1;34:ln=1;36:so=1;35:pi=33:ex=1;32:bd=1;33:cd=1;33:su=1;31:
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+
 export LESS_TERMCAP_mb=$'\e[1;31m'
 export LESS_TERMCAP_md=$'\e[1;34m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -140,10 +141,7 @@ alias lutris="~/lutris/bin/lutris -d"
 alias mirrorrefresh="sudo reflector --verbose --sort rate -l 30 --save /etc/pacman.d/mirrorlist"
 alias PyprConf="nvim .config/pypr/config.toml"
 alias Linkget="ytfzf -L | wl-copy && addyttobatch"
-alias StartCopyparty="python /run/media/tagilla/Copyparty/copyparty-sfx.py -c /run/media/tagilla/Copyparty/conf.conf --qr "
-alias StartTunnel="cloudflared tunnel run --token eyJhIjoiODlhMjYyNDMzNGY3NWEyMzFkNDBjNDQxMzMwNDIwMmQiLCJ0IjoiMDA1YjM3ODYtOTdiZi00YWQyLTg2NDEtMTc5OTBjMDY5MDBhIiwicyI6IlpUWXlObUV6TURVdE5ETTNNQzAwWlRrM0xUaGxZakF0WVdZMlpXUm1ZVEV3T1RNMiJ9"
 fastfetch
-alias PartySync="python /home/tagilla/Copyparty/u2c.py -a Y4ld4b40th --dr 192.168.1.81:3923"
 alias ytdownloadbatchaudio="yt-dlp --no-playlist -x --audio-quality 0 --batch-file ~/batch.txt && .> ~/batch.txt && cat ~/batch.txt" 
 alias ytdownloadbatch="yt-dlp --no-playlist --batch-file ~/batch.txt -P ~/TemporaryNasStuff/Batchdump && .> ~/batch.txt && cat ~/batch.txt"
 alias addyttobatch="wl-paste >> ~/batch.txt && cat ~/batch.txt"
@@ -160,7 +158,8 @@ alias rmpc-bindings="cat /home/tagilla/Documents/rmpcbinds"
 alias githubsync="cat /home/tagilla/Documents/githubsync.txt"
 alias moncfg="hyprmoncfg --monitors-conf ~/dotfiles/hypr/.config/hypr/subconfigs/monitors.lua --hypr-config ~/dotfiles/hypr/.config/hypr/hyprland.lua"
 alias weather="wttr Birmingham"
-
+alias Calendar="calcure"
+alias n="nvim"
 # Timeshift aliases
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
@@ -241,3 +240,7 @@ d() {
 # --- Oversight Security Tool ---
 #source /home/rk1/.local/share/oversight/oversight.zsh
 #add-zsh-hook preexec _oversight_preexec
+
+# bun completions
+[ -s "/home/tagilla/.bun/_bun" ] && source "/home/tagilla/.bun/_bun"
+export PATH="/home/tagilla/.bun/bin:$PATH"

@@ -45,7 +45,7 @@ hl.bind("SUPER + J", hl.dsp.layout("togglesplit"))
 hl.bind("SUPER + H", hl.dsp.layout("swapsplit"))
 hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("/home/tagilla/.Scripts/SyncMenu.zsh"))
 hl.bind("CTRL + 9", hl.dsp.exec_cmd("ghostty --class=com.a.AudioSwitcher  --command=~/custom-scripts/Shell-Widgets/change-audio.sh"))
-hl.bind("CTRL + SHIFT + W", hl.dsp.exec_cmd("python3 /home/tagilla/custom-scripts/Python-Widgets/changewall-widget.py"))
+hl.bind("CTRL + SHIFT + W", hl.dsp.exec_cmd("/home/tagilla/dotfiles/scripts/.Scripts/fzfpapermenu.zsh"))
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))

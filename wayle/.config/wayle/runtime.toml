@@ -35,6 +35,9 @@ left = []
 center = []
 right = []
 
+[styling]
+theme-provider = "pywal"
+
 [modules.cava]
 color = "#531313"
 bar-width = 10

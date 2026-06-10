@@ -59,7 +59,7 @@ hl.monitor({
 hl.monitor({
     output = "DP-3",
     mode = "800x480@60.73Hz",
-    position = "3250x250",
+    position = "3250x270",
     scale = 0.83,
     transform = 2,
     cm = "srgb",
@@ -67,7 +67,19 @@ hl.monitor({
 hl.monitor({
     output = "HDMI-A-1",
     mode = "1920x1080@60.00Hz",
-    position = "4210x250",
+    position = "4210x260",
     scale = 1,
     cm = "srgb",
+})
+
+-- Keybinds
+hl.unbind("SUPER + A")
+hl.bind("SUPER + A", hl.dsp.exec_cmd("asryx"))
+
+-- Window rules
+hl.window_rule({
+    match = {
+        class = "^(waypaper)$",
+    },
+    float = true,
 })

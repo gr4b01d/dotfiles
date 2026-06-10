@@ -25,12 +25,12 @@ animation = "fromTop"
 size = "60% 40%"
 lazy = "true"
 
-#[scratchpads.mymusic]
-#command = "foot --app-id ncmpcpp rmpc"
-#class = "ncmpcpp"
-#size = "55% 40%"
-#animation = "fromBottom"
-#lazy = "true"
+[scratchpads.mymusic]
+command = "foot --app-id ncmpcpp rmpc"
+class = "ncmpcpp"
+size = "55% 40%"
+animation = "fromBottom"
+lazy = "true"
 
 [scratchpads.spot]
 command = "LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"

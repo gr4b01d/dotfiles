@@ -10,5 +10,8 @@ tmp_files/
 
 
 fifo
-clipse/.config/clipse/clipboard_history.json
+
+clipse
+
 obs-studio/.config/obs-studio/user.ini
+
