@@ -75,6 +75,9 @@ hl.monitor({
 -- Keybinds
 hl.unbind("SUPER + A")
 hl.bind("SUPER + A", hl.dsp.exec_cmd("asryx"))
+hl.unbind("XF86Tools")
+hl.bind("XF86Tools", hl.dsp.exec_cmd("pypr toggle mymusic"))
+hl.bind("SUPER + SHIFT + Return", hl.dsp.exec_cmd("ghostty -e nvim"))
 
 -- Window rules
 hl.window_rule({
