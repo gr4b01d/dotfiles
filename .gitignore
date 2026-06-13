@@ -17,6 +17,6 @@ obs-studio/.config/obs-studio/user.ini
 
 /obs-studio/.config/obs-studio/basic/scenes
 
-/home/tagilla/dotfiles/ytui/.config/ytui/ytui.log
+/ytui/.config/ytui/ytui.log
 
-/home/tagilla/dotfiles/ytui/.config/ytui/watched_history.json
+/ytui/.config/ytui/watched_history.json
