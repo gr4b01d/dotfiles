@@ -58,8 +58,8 @@ desc = "Open recycle bin"
 
 [[mgr.prepend_keymap]]
 on = [ "g", "E" ]
-run = "cd /mnt/0c66454d-94f8-40ee-b502-b7eead5bc737"
-desc = "Travel to hdd"
+run = "cd /mnt/baefb291-842c-4d6a-9fed-7bca7e63deeb"
+desc = "Travel to XtraSSD"
 
 [[mgr.prepend_keymap]]
 on  = "y"
@@ -95,7 +95,27 @@ on = [ "g", "G" ]
 run = "cd /home/tagilla/.local/share/Steam/steamapps/common"
 desc = "Travel to Steam games folder"
 
+[[mgr.prepend_keymap]]
+on = [ "e", "m" ]
+run = "plugin chmod"
+desc = "Chmod files"
 
+[[mgr.prepend_keymap]]
+on = [ "e", "g" ]
+run = "shell --block 'gradia %h' "
+desc = "Edit with Gradia"
 
+[[mgr.prepend_keymap]]
+on = [ "e", "n" ]
+run = "shell --block 'nvim %h' "
+desc = "Edit with nvim"
 
+[[mgr.prepend_keymap]]
+on = "<C-g>"
+run = "plugin open-git-remote"
+desc = "Open github page"
 
+[[mgr.prepend_keymap]]
+on = "<C-l>"
+run = "plugin lazygit"
+desc = "Initiate Lazygit"
