@@ -119,3 +119,8 @@ desc = "Open github page"
 on = "<C-l>"
 run = "plugin lazygit"
 desc = "Initiate Lazygit"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "C" ]
+run = "cd /home/tagilla/dotfiles"
+desc = "Travel to Dotfiles" 
