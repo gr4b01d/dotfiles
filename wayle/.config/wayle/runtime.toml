@@ -22,7 +22,7 @@ center = [
 ]
 right = [
     "separator",
-    "network",
+    "hyprland-workspaces",
     "microphone",
     "volume",
     "notifications",
@@ -46,6 +46,9 @@ bar-width = 10
 format = "%a %b %d %H:%M:%S"
 icon-bg-color = "#531313"
 label-color = "#531313"
+
+[modules.hyprland-workspaces]
+show-special = false
 
 [modules.media]
 icon-bg-color = "#531313"
