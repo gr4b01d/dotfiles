@@ -108,7 +108,7 @@ alias keys="~/custom-scripts/keybinds.sh"
 alias dashboard="python3 ~/custom-scripts/Dashboard/dashboard.py"
 alias hyprconf='micro -multiopen vsplit ~/.config/hypr/configs/keybinds.lua ~/.config/hypr/configs/windowrules.lua'
 alias reclaim="python3 ~/arch-projects/Reclaim-Linux/reclaim-linux.py"
-alias Zource="source ~/.zshrc" 
+alias Zource="clear && source ~/.zshrc" 
 alias clear="clear && fastfetch" 
 alias zcfg="nvim ~/.zshrc"
 alias seeksuperfluous="pacman -Qtdq"
@@ -160,10 +160,11 @@ alias moncfg="hyprmoncfg --monitors-conf ~/dotfiles/hypr/.config/hypr/subconfigs
 alias weather="wttr Birmingham"
 alias Calendar="calcure"
 alias n="nvim"
+alias pond="/home/tagilla/pond/bin/pond"
 # Timeshift aliases
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
-
+alias sdl='spotdl "$(wl-paste)"'
  
 # --- Functions ---
 function y() {
