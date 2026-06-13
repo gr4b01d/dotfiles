@@ -65,7 +65,7 @@ keybind = alt+c=copy_to_clipboard
 keybind = alt+t=new_tab  
 keybind = alt+w=close_tab 
 keybind = alt+r=reload_config
-background-opacity=0.2
+background-opacity=0.4
 background-blur=false
 font-family = URWGothic-Book
 alpha-blending = native
