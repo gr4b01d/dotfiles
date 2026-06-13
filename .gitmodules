@@ -1,0 +1,9 @@
+[submodule "mpv/.config/mpv/scripts/file-browser"]
+	path = mpv/.config/mpv/scripts/file-browser
+	url = https://github.com/CogentRedTester/mpv-file-browser
+[submodule "yazi/.config/yazi/plugins/compress.yazi"]
+	path = yazi/.config/yazi/plugins/compress.yazi
+	url = https://github.com/KKV9/compress.yazi
+[submodule "yazi/.config/yazi/plugins/kdeconnect-send.yazi"]
+	path = yazi/.config/yazi/plugins/kdeconnect-send.yazi
+	url = https://github.com/Deepak22903/kdeconnect-send.yazi
