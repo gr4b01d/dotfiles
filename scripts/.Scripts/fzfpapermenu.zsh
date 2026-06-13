@@ -11,3 +11,5 @@ awww img ~/Pictures/Wallpapers/temp/* && wal -i ~/Pictures/Wallpapers/temp/* && 
 
 # 4. Reload apps
 wayle panel restart  
+
+~/.local/bin/pywalfox update
