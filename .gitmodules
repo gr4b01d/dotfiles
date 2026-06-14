@@ -28,3 +28,6 @@
 [submodule "pond/pond"]
 	path = pond/pond
 	url = https://gitlab.com/alice-lefebvre/pond/
+[submodule "rust-u4pak/rust-u4pak"]
+	path = rust-u4pak/rust-u4pak
+	url = https://github.com/panzi/rust-u4pak
