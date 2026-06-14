@@ -31,3 +31,6 @@
 [submodule "rust-u4pak/rust-u4pak"]
 	path = rust-u4pak/rust-u4pak
 	url = https://github.com/panzi/rust-u4pak
+[submodule "spotify-adblock/spotify-adblock"]
+	path = spotify-adblock/spotify-adblock
+	url = https://github.com/abba23/spotify-adblock
