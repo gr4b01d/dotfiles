@@ -124,3 +124,9 @@ desc = "Initiate Lazygit"
 on = [ "g", "C" ]
 run = "cd /home/tagilla/dotfiles"
 desc = "Travel to Dotfiles" 
+
+[[mgr.prepend_keymap]]
+on = [ "e", "f" ]
+run = "shell --block 'go run github.com/dgr8akki/nano-ffmpeg@latest -d %h' "
+desc = "Initiate ffmpeg"
+
