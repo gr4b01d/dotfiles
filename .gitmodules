@@ -10,3 +10,6 @@
 [submodule "lazyssh/lazyssh"]
 	path = lazyssh/lazyssh
 	url = https://github.com/Adembc/lazyssh
+[submodule "asryx/asryx"]
+	path = asryx/asryx
+	url = https://github.com/rccyx/asryx
