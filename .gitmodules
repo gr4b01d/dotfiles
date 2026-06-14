@@ -34,3 +34,6 @@
 [submodule "spotify-adblock/spotify-adblock"]
 	path = spotify-adblock/spotify-adblock
 	url = https://github.com/abba23/spotify-adblock
+[submodule "wev/wev"]
+	path = wev/wev
+	url = https://github.com/jwrdegoede/wev
