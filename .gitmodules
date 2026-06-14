@@ -13,3 +13,6 @@
 [submodule "asryx/asryx"]
 	path = asryx/asryx
 	url = https://github.com/rccyx/asryx
+[submodule "desktop-files-creator/desktop-files-creator"]
+	path = desktop-files-creator/desktop-files-creator
+	url = https://github.com/alexkdeveloper/desktop-files-creator
