@@ -40,3 +40,6 @@
 [submodule "wl-clipboard-x11/wl-clipboard-x11"]
 	path = wl-clipboard-x11/wl-clipboard-x11
 	url = https://github.com/brunelli/wl-clipboard-x11
+[submodule "xone/xone"]
+	path = xone/xone
+	url = https://github.com/medusalix/xone
