@@ -25,3 +25,6 @@
 [submodule "playerctl-firefox-youtube/playerctl-firefox-youtube"]
 	path = playerctl-firefox-youtube/playerctl-firefox-youtube
 	url = https://github.com/valeriangalliat/playerctl-firefox-youtube
+[submodule "pond/pond"]
+	path = pond/pond
+	url = https://gitlab.com/alice-lefebvre/pond/
