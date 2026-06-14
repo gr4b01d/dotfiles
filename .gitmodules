@@ -7,3 +7,6 @@
 [submodule "yazi/.config/yazi/plugins/kdeconnect-send.yazi"]
 	path = yazi/.config/yazi/plugins/kdeconnect-send.yazi
 	url = https://github.com/Deepak22903/kdeconnect-send.yazi
+[submodule "lazyssh/lazyssh"]
+	path = lazyssh/lazyssh
+	url = https://github.com/Adembc/lazyssh
