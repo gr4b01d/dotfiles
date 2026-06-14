@@ -22,3 +22,6 @@
 [submodule "lutris/lutris"]
 	path = lutris/lutris
 	url = https://github.com/lutris/lutris
+[submodule "playerctl-firefox-youtube/playerctl-firefox-youtube"]
+	path = playerctl-firefox-youtube/playerctl-firefox-youtube
+	url = https://github.com/valeriangalliat/playerctl-firefox-youtube
