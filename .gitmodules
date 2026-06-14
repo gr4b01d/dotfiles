@@ -16,3 +16,6 @@
 [submodule "desktop-files-creator/desktop-files-creator"]
 	path = desktop-files-creator/desktop-files-creator
 	url = https://github.com/alexkdeveloper/desktop-files-creator
+[submodule "ghostty-shaders/ghostty-shaders"]
+	path = ghostty-shaders/ghostty-shaders
+	url = https://github.com/0xhckr/ghostty-shaders
