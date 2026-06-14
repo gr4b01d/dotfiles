@@ -37,3 +37,6 @@
 [submodule "wev/wev"]
 	path = wev/wev
 	url = https://github.com/jwrdegoede/wev
+[submodule "wl-clipboard-x11/wl-clipboard-x11"]
+	path = wl-clipboard-x11/wl-clipboard-x11
+	url = https://github.com/brunelli/wl-clipboard-x11
