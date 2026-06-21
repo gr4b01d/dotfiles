@@ -88,7 +88,7 @@ desc = "Travel to Documents"
 [[mgr.prepend_keymap]]
 on = [ "g", "m" ]
 run = "cd /home/tagilla/Music"
-desc = "Travel to Music"
+desc = "Travel to Music" 
 
 [[mgr.prepend_keymap]]
 on = [ "g", "G" ]
@@ -129,4 +129,14 @@ desc = "Travel to Dotfiles"
 on = [ "e", "f" ]
 run = "shell --block 'go run github.com/dgr8akki/nano-ffmpeg@latest -d %h' "
 desc = "Initiate ffmpeg"
+
+[[mgr.prepend_keymap]]
+on = [ "i", "d" ]
+run = 'shell --block "wget \"$(wl-paste)\"" '
+desc = "Download meme"
+
+[[mgr.prepend_keymap]]
+on = [ "e", "k" ]
+run = "shell --block 'kdenlive %h' "
+desc = "Edit with kdenlive"
 
