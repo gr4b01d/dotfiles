@@ -245,3 +245,5 @@ d() {
 # bun completions
 [ -s "/home/tagilla/.bun/_bun" ] && source "/home/tagilla/.bun/_bun"
 export PATH="/home/tagilla/.bun/bin:$PATH"
+
+
