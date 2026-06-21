@@ -11,12 +11,13 @@ monitor = "DP-1"
 show = true
 left = [
     "clock",
-    "weather",
     "systray",
+    "weather",
     "separator",
 ]
 center = [
     "separator",
+    "media",
     "cava",
     "separator",
 ]
@@ -30,10 +31,13 @@ right = [
 
 [[bar.layout]]
 monitor = "HDMI-A-1"
-show = false
-left = []
-center = []
-right = []
+show = true
+left = [
+    "cpu",
+    "ram",
+]
+center = ["systray"]
+right = ["window-title"]
 
 [styling]
 theme-provider = "pywal"
@@ -48,7 +52,11 @@ icon-bg-color = "#531313"
 label-color = "#531313"
 
 [modules.hyprland-workspaces]
+min-workspace-count = 1
+monitor-specific = false
 show-special = false
+display-mode = "icon"
+app-icons-show = true
 
 [modules.media]
 icon-bg-color = "#531313"
@@ -68,6 +76,7 @@ label-color = "#531313"
 
 [modules.weather]
 location = "Birmingham"
+weatherapi-key = "09eab95b9039458a9c0115139261606"
 icon-bg-color = "#531313"
 label-color = "#531313"
 
