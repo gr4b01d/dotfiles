@@ -76,7 +76,7 @@ hl.monitor({
 hl.unbind("SUPER + A")
 hl.bind("SUPER + A", hl.dsp.exec_cmd("asryx"))
 hl.unbind("XF86Tools")
-hl.bind("XF86Tools", hl.dsp.exec_cmd("pypr toggle mymusic"))
+hl.bind("XF86Tools", hl.dsp.exec_cmd("pypr toggle mymusic spot"))
 hl.unbind("SUPER + SHIFT + Return")
 hl.bind("SUPER + SHIFT + Return", hl.dsp.exec_cmd("ghostty -e nvim"))
 
