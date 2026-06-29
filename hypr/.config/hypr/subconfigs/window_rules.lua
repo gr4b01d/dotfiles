@@ -50,7 +50,6 @@ hl.window_rule({
 
 hl.window_rule({ match = { class = "swayimg" }, float = true })
 hl.window_rule({ match = { class = "clipse" }, float = true })
-hl.window_rule({ match = { class = "kitty" }, float = true })
 hl.window_rule({ match = { class = "ncmpcpp" }, float = true })
 hl.window_rule({ match = { class = "footup" }, float = true })
 hl.window_rule({ match = { class = "yownloader" }, float = true })

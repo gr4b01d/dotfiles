@@ -1,5 +1,5 @@
 local terminal    = "ghostty"
-local fileManager = "ghostty --command=yazi"
+local fileManager = "kitty --execute yazi"
 local menu        = "fuzzel"
 local browser     = "firefox"
 local social      = "discord"
@@ -33,7 +33,6 @@ hl.bind("CTRL + Prior", hl.dsp.exec_cmd("playerctl -p spotify next"))
 hl.bind("SUPER + W", hl.dsp.exec_cmd("pypr hide '*'"))
 hl.bind("SUPER + CTRL + C", hl.dsp.exec_cmd("/home/tagilla/.Scripts/Yownloader.zsh"))
 hl.bind("SUPER + CTRL + SHIFT + C", hl.dsp.exec_cmd(". > ~/batch.txt"))
-hl.bind("SUPER + CTRL + U", hl.dsp.exec_cmd("~/.Scripts/update.zsh"))
 hl.bind("SUPER + CTRL + V", hl.dsp.exec_cmd("/home/tagilla/.Scripts/VPNMenu.zsh"))
 hl.bind("Print", hl.dsp.exec_cmd("hyprshot --output-folder /home/tagilla/Pictures/Hyprshot -m output -m active"))
 hl.bind("SUPER + Print", hl.dsp.exec_cmd("/home/tagilla/.Scripts/screenshot.zsh"))

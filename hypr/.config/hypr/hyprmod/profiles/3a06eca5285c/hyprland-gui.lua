@@ -11,10 +11,13 @@ hl.config({
             enabled = false,
         },
         inactive_opacity = 0.95,
-        rounding = 0,
+        rounding = 13,
         shadow = {
             enabled = false,
         },
+    },
+    dwindle = {
+        smart_split = false,
     },
     ecosystem = {
         no_donation_nag = true,
@@ -29,6 +32,9 @@ hl.config({
         },
         gaps_in = 3,
         gaps_out = 6,
+    },
+    input = {
+        numlock_by_default = true,
     },
 })
 
@@ -93,3 +99,9 @@ hl.window_rule({
     },
     float = true,
 })
+
+-- Autostart
+hl.on("hyprland.start", function()
+    hl.exec_cmd("foot -e calcure")
+    hl.exec_cmd("gsr-ui")
+end)
