@@ -8,7 +8,7 @@ on  = "M"
 run = "plugin mount"
 
 [[mgr.prepend_keymap]]
-on  = "<C-n>"
+on  = "<C-z>"
 run = "shell -- dragon-drop -x -i -T %h"
 
 [[mgr.prepend_keymap]]
@@ -140,3 +140,7 @@ on = [ "e", "k" ]
 run = "shell --block 'kdenlive %h' "
 desc = "Edit with kdenlive"
 
+[[mgr.prepend_keymap]]
+on = [ "g", "t" ]
+run = "cd /home/tagilla/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/Desktop"
+desc = "Travel to tor downloads"
