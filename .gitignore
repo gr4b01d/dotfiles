@@ -20,3 +20,4 @@ obs-studio/.config/obs-studio/user.ini
 /ytui/.config/ytui/ytui.log
 
 /ytui/.config/ytui/watched_history.json
+/playerctl-firefox-youtube
