@@ -37,7 +37,10 @@ left = [
     "ram",
 ]
 center = ["systray"]
-right = ["window-title"]
+right = [
+    "window-title",
+    "hyprland-workspaces",
+]
 
 [styling]
 theme-provider = "pywal"
