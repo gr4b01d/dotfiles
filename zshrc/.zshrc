@@ -165,6 +165,7 @@ alias pond="/home/tagilla/pond/bin/pond"
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
 alias sdl='spotdl "$(wl-paste)"'
+alias Steamcontrollermusic='~/Downloads/steam-haptics-singer-v1113'
  
 # --- Functions ---
 function y() {
