@@ -48,6 +48,8 @@ theme-provider = "pywal"
 [modules.cava]
 color = "#531313"
 bar-width = 10
+left-click = "/home/tagilla/.Scripts/PyprMenu.zsh"
+right-click = "fuzzel"
 
 [modules.clock]
 format = "%a %b %d %H:%M:%S"
@@ -62,8 +64,10 @@ display-mode = "icon"
 app-icons-show = true
 
 [modules.media]
+icon-type = "spinning-disc"
 icon-bg-color = "#531313"
 label-color = "#531313"
+right-click = "pypr show mymusic"
 
 [modules.microphone]
 icon-bg-color = "#531313"
