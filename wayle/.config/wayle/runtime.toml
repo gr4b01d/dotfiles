@@ -67,7 +67,10 @@ app-icons-show = true
 icon-type = "spinning-disc"
 icon-bg-color = "#531313"
 label-color = "#531313"
-right-click = "pypr show mymusic"
+right-click = "pypr toggle mymusic"
+middle-click = "pypr toggle spot"
+scroll-up = "rmpc volume +5"
+scroll-down = "rmpc volume -5"
 
 [modules.microphone]
 icon-bg-color = "#531313"
@@ -80,6 +83,8 @@ label-color = "#531313"
 [modules.volume]
 icon-bg-color = "#531313"
 label-color = "#531313"
+scroll-up = "wayle audio output-volume +5"
+scroll-down = "wayle audio output-volume -5"
 
 [modules.weather]
 location = "Birmingham"
