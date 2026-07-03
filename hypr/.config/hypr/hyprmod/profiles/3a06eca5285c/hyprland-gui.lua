@@ -85,6 +85,8 @@ hl.unbind("XF86Tools")
 hl.bind("XF86Tools", hl.dsp.exec_cmd("pypr toggle mymusic spot"))
 hl.unbind("SUPER + SHIFT + Return")
 hl.bind("SUPER + SHIFT + Return", hl.dsp.exec_cmd("ghostty -e nvim"))
+hl.unbind("SUPER + CTRL + B")
+hl.bind("SUPER + CTRL + B", hl.dsp.exec_cmd("fuzzel"))
 
 -- Window rules
 hl.window_rule({
@@ -104,4 +106,5 @@ hl.window_rule({
 hl.on("hyprland.start", function()
     hl.exec_cmd("foot -e calcure")
     hl.exec_cmd("gsr-ui")
+    hl.exec_cmd("env LD_PRELOAD=/usr/lib32/libextest.so steam")
 end)
