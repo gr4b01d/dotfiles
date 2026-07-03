@@ -16,5 +16,9 @@ git submodule Init
 git submodule update --recursive
 ./scripts/.Scripts/import.zsh #install my list of packages
 
-```
-    
+``` 
+## P.S
+
+Please remember that whichever of these dotfiles you do end up using, you will have to replace my username "tagilla" with your own.  
+And make sure to check the configs for the directories they require, I recall making some eccentric choices for some of them. 
+All in all, just take care to fit the dots to your setup. 
