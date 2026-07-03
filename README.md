@@ -11,8 +11,10 @@ And if this seems a bit barebones, please take into consideration that this is r
 ```bash
 git clone https://github.com/gr4b01d/dotfiles
 cd dotfiles
+stow . #link the directories to their proper places
 git submodule Init
 git submodule update --recursive
 ./scripts/.Scripts/import.zsh #install my list of packages
+
 ```
     
