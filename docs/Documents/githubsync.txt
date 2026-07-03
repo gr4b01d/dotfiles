@@ -1,0 +1,1 @@
+it's git add <changed thing> then git commit -m <message> then git push origin <branch>:<branch>
