@@ -1,15 +1,17 @@
 #!/bin/zsh 
 
-# 1. Clear out the old temporary wallpaper
+# clear out the old paper
 rm -rf ~/Pictures/Wallpapers/temp/*
 
-# 2. Launch Kitty, change to the directory, and run fzf inside it
-kitty --directory ~/Pictures/Wallpapers bash -c 'cp "$(fzf --preview "~/.Scripts/fzf-preview.sh {}")" ~/Pictures/Wallpapers/temp/'
+# use the default fzf prievew thingy to select the paper to copy to tmp because I'm lazy 
+kitty --app-id walls --directory ~/Pictures/Wallpapers bash -c 'cp "$(fzf --preview "~/.Scripts/fzf-preview.sh {}")" ~/Pictures/Wallpapers/temp/'
 
-# 3. Apply the new wallpaper once Kitty closes
+# apply the paper the wallpaper to all the bits and bobs
 awww img ~/Pictures/Wallpapers/temp/* && wal -i ~/Pictures/Wallpapers/temp/* && pkill -USR2 ghostty
 
-# 4. Reload apps
+# reload wayle because it likes having extra attention paid to it
 wayle panel restart  
+
+# firefox too
 
 ~/.local/bin/pywalfox update
