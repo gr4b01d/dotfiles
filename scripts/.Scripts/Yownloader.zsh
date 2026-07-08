@@ -11,12 +11,12 @@ if [ -z "$URL" ]; then
 fi
 
 # Present options in Fuzzel
-CHOICE=$(echo -e "Download Video\nDownload Audio\nDownload Playlist\nDownload Music Playlist\nExit" | fuzzel --dmenu -p "yt-dlp: " --lines=4)
+CHOICE=$(echo -e "Download Video\nDownload Audio\nDownload Playlist\nDownload Music Playlist\nExit" | fuzzel --dmenu -p "yt-dlp: " --lines=5)
 
 # Act based on selection
 case "$CHOICE" in
 	"Download Video") foot --app-id yownloader yt-dlp -P /home/tagilla/TemporaryNasStuff/Batchdump --no-playlist "$URL" ;;
-	"Download Audio") foot --app-id yownloader yt-dlp -x --audio-format mp3 -P /home/tagilla/Music/Temporary --no-playlist "$URL" ;;
+	"Download Audio") foot --app-id yownloader yt-dlp -x --audio-format mp3 --embed-metadata --embed-thumbnail -P /home/tagilla/Music/Temporary --no-playlist "$URL" ;;
         "Download Playlist") foot --app-id yownloader yt-dlp -P /home/tagilla/TemporaryNasStuff/Batchdump "$URL" ;;
 	"Exit") paplay /home/tagilla/dotfiles/scripts/.Scripts/scriptdeps/faith-michael-davies-i-go-unwillingly-made-with-Voicemod.mp3 ;;
 	
