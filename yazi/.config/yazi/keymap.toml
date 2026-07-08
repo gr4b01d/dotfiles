@@ -131,9 +131,9 @@ run = "shell --block 'go run github.com/dgr8akki/nano-ffmpeg@latest -d %h' "
 desc = "Initiate ffmpeg"
 
 [[mgr.prepend_keymap]]
-on = [ "i", "d" ]
+on = [ "i", "w" ]
 run = 'shell --block "wget \"$(wl-paste)\"" '
-desc = "Download meme"
+desc = "wget file"
 
 [[mgr.prepend_keymap]]
 on = [ "e", "k" ]
@@ -144,3 +144,19 @@ desc = "Edit with kdenlive"
 on = [ "g", "t" ]
 run = "cd /home/tagilla/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/Desktop"
 desc = "Travel to tor downloads"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "y" ]
+run = "cd /home/tagilla/dotfiles/yazi/.config/yazi"
+desc = "Travel to yazi config"
+
+[[mgr.prepend_keymap]]
+on = [ "i", "c" ]
+run = 'shell --block "curl -L -O \"$(wl-paste)\""  '
+desc = "curl file"
+
+[[mgr.prepend_keymap]]
+on = [ "e", "t" ]
+run = 'shell --block "kitty"  '
+desc = "Initiate terminal"
+
