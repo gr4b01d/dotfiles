@@ -87,6 +87,8 @@ hl.unbind("SUPER + SHIFT + Return")
 hl.bind("SUPER + SHIFT + Return", hl.dsp.exec_cmd("ghostty -e nvim"))
 hl.unbind("SUPER + CTRL + B")
 hl.bind("SUPER + CTRL + B", hl.dsp.exec_cmd("fuzzel"))
+hl.unbind("SUPER + O")
+hl.bind("SUPER + O", hl.dsp.exec_cmd("obsidian"))
 
 -- Window rules
 hl.window_rule({
@@ -100,6 +102,30 @@ hl.window_rule({
         class = "^(destiny_linux_amd64\\.AppImage)$",
     },
     float = true,
+})
+hl.window_rule({
+    match = {
+        class = "^(walls)$",
+    },
+    float = true,
+})
+hl.window_rule({
+    match = {
+        class = "^(walls)$",
+    },
+    move = "700 250",
+})
+hl.window_rule({
+    match = {
+        class = "^(com\\.gabm\\.satty)$",
+    },
+    float = true,
+})
+hl.window_rule({
+    match = {
+        class = "^(satty)$",
+    },
+    move = "= {\"cursor_x-(window_w*0.5)\", \"cursor_y-(window_h*0.5)\"}",
 })
 
 -- Autostart

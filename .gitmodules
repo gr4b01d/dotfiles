@@ -7,39 +7,7 @@
 [submodule "yazi/.config/yazi/plugins/kdeconnect-send.yazi"]
 	path = yazi/.config/yazi/plugins/kdeconnect-send.yazi
 	url = https://github.com/Deepak22903/kdeconnect-send.yazi
-[submodule "lazyssh/lazyssh"]
-	path = lazyssh/lazyssh
-	url = https://github.com/Adembc/lazyssh
-[submodule "asryx/asryx"]
-	path = asryx/asryx
-	url = https://github.com/rccyx/asryx
-[submodule "desktop-files-creator/desktop-files-creator"]
-	path = desktop-files-creator/desktop-files-creator
-	url = https://github.com/alexkdeveloper/desktop-files-creator
 [submodule "ghostty-shaders/ghostty-shaders"]
 	path = ghostty-shaders/ghostty-shaders
 	url = https://github.com/0xhckr/ghostty-shaders
-[submodule "lutris/lutris"]
-	path = lutris/lutris
-	url = https://github.com/lutris/lutris
-[submodule "playerctl-firefox-youtube/playerctl-firefox-youtube"]
-	path = playerctl-firefox-youtube/playerctl-firefox-youtube
-	url = https://github.com/valeriangalliat/playerctl-firefox-youtube
-[submodule "pond/pond"]
-	path = pond/pond
-	url = https://gitlab.com/alice-lefebvre/pond/
-[submodule "rust-u4pak/rust-u4pak"]
-	path = rust-u4pak/rust-u4pak
-	url = https://github.com/panzi/rust-u4pak
-[submodule "spotify-adblock/spotify-adblock"]
-	path = spotify-adblock/spotify-adblock
-	url = https://github.com/abba23/spotify-adblock
-[submodule "wev/wev"]
-	path = wev/wev
-	url = https://github.com/jwrdegoede/wev
-[submodule "wl-clipboard-x11/wl-clipboard-x11"]
-	path = wl-clipboard-x11/wl-clipboard-x11
-	url = https://github.com/brunelli/wl-clipboard-x11
-[submodule "xone/xone"]
-	path = xone/xone
-	url = https://github.com/medusalix/xone
+
