@@ -13,5 +13,10 @@ use = "TD-Sky/sudo"
 rev = "afd61ce"
 hash = "d390cd2d8b996939a695411b446f58d0"
 
+[[plugin.deps]]
+use = "Sonico98/exifaudio"
+rev = "4506f9d"
+hash = "4761fffb60a12d37096c34a356380cdf"
+
 [flavor]
 deps = []
