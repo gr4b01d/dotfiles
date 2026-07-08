@@ -104,6 +104,7 @@ alias mc="micro"
 alias update="sudo pacman -Syu"
 alias install="sudo pacman -S"
 alias query="pacman -Q"
+alias Caniget='pacman -Ss'
 alias Zource="clear && source ~/.zshrc" 
 alias clear="clear && fastfetch" 
 alias zcfg="nvim ~/.zshrc"
@@ -148,12 +149,13 @@ alias githubsync="cat /home/tagilla/Documents/githubsync.txt"
 alias weather="wttr Birmingham"
 alias Calendar="calcure"
 alias n="nvim"
-alias pond="/home/tagilla/pond/bin/pond"
+alias pond="~/pond/bin/pond"
 alias sdl='spotdl "$(wl-paste)"'
 alias Steamcontrollermusic='~/Downloads/steam-haptics-singer-v1113'
 # Timeshift aliases
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
+alias cronboard='~/.local/bin/cronboard'
  
 # --- Functions ---
 function y() {
@@ -198,10 +200,7 @@ setopt autocd
 setopt EXTENDED_HISTORY
 
 # --- Startup ---
-echo "󱓞 System Version: Main"
-if [[ -o interactive && "$TERM" =~ "foot|xterm-kitty" ]]; then
-    python3 "$HOME/custom-scripts/Dashboard/dashboard.py"
-fi
+
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
 #source ~/.local/share/extraterm/extraterm-commands-0.9.4/setup_extraterm_zsh.zsh
