@@ -152,6 +152,8 @@ alias n="nvim"
 alias pond="~/pond/bin/pond"
 alias sdl='spotdl "$(wl-paste)"'
 alias Steamcontrollermusic='~/Downloads/steam-haptics-singer-v1113'
+alias z-library='cat ~/Documents/Notes/zlibrarytorurl | wl-copy && torbrowser-launcher'
+alias cope=' echo "$(($(date +%Y) + 1))" will be the year of desktop Linux '
 # Timeshift aliases
 alias restore-list='timeshift --list'
 alias restore-now='sudo timeshift --restore'
